@@ -783,6 +783,10 @@ a {
   padding-bottom: 60px;
 }
 
+.footer-info {
+  width: 231px;
+}
+
 .page-footer .contacts-nav {
   display: flex;
   flex-direction: column;
@@ -813,11 +817,14 @@ a {
 .page-footer .container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-social-net {
   display: flex;
   flex-direction: column;
+
+  width: 206px;
   margin-left: 70px;
 }
 
@@ -855,6 +862,7 @@ a {
 }
 
 .footer-mailing {
+  width: 570px;
   margin-left: 93px;
 }
 
