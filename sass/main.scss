@@ -1,5 +1,5 @@
-body {
-  background-color: var(--accent-bg-color);
-}
 @import "./utils/vars";
-@import "./components/page-header";
+@import "./components/Webstudio/page-header";
+@import "./components/Webstudio/logo";
+@import "./components/Webstudio/navigation";
+@import "./components/Webstudio/contacts-list";

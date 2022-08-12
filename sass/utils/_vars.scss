@@ -1,22 +1,60 @@
---logo-black-txt: #000;
---logo-white-txt: #fff;
---primary-txt-color: #757575;
---title-txt-color: #212121;
---accent-txt-color: #2196f3;
---hero-txt-color: #fff;
---team-bg-color: #f5f4fa;
---team-card-bg-color: #fff;
---portfolio-card-bg-color: #fff;
---address-txt: #fff;
---address-txt-contacts: rgba(255, 255, 255, 0.6);
---accent-bg-color: #2f303a;
---primary-bg-color: #ffffff;
---button-bg-color: #2196f3;
---button-bg-act-color: #188ce8;
---button-txt-color: #ffffff;
---button-filter-bg-color: #f5f4fa;
---button-filter-txt-color: #000;
---button-filter-bg-act-color: #2196f3;
---icon-color: #afb1b8;
+:root {
+  --logo-black-txt: #000000;
+  --logo-white-txt: #ffffff;
+  --primary-txt-color: #757575;
+  --title-txt-color: #212121;
+  --accent-txt-color: #2196f3;
+  --hero-txt-color: #ffffff;
+  --team-bg-color: #f5f4fa;
+  --team-card-bg-color: #fff;
+  --portfolio-card-bg-color: #fff;
+  --address-txt: #fff;
+  --address-txt-contacts: rgba(255, 255, 255, 0.6);
+  --accent-bg-color: #2f303a;
+  --primary-bg-color: #ffffff;
+  --button-bg-color: #2196f3;
+  --button-bg-act-color: #188ce8;
+  --button-txt-color: #ffffff;
+  --button-filter-bg-color: #f5f4fa;
+  --button-filter-txt-color: #000;
+  --button-filter-bg-act-color: #2196f3;
+  --icon-color: #afb1b8;
+}
 
-$color: red;
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-txt-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
