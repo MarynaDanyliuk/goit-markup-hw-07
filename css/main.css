@@ -349,55 +349,116 @@ a {
   line-height: 1.71;
 }
 
-.benefit-list,
-.projects-list,
+.project-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.project-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.project-list__overlay {
+  position: relative;
+}
+.project-list__description {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 27px 82px 27px 83px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--address-txt);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .team-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+.team-list__card {
+  background-color: var(--team-card-bg-color);
+  width: 270px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list__card:not(:last-child) {
+  margin-right: 30px;
+}
+.team-list__info {
+  padding: 30px 32px;
+}
+.team-list__title {
+  color: var(--title-txt-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-list__description {
+  color: var(--primary-txt-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-top: 10px;
+}
 
-.benefit-item-icon {
+.social-net {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: var(--button-filter-bg-color);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-net-item {
+  height: 44px;
+  width: 44px;
+}
+
+.social-net-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
+  background-color: transparent;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.benefit-icon {
+.social-net-link:hover,
+.social-net-link:focus {
+  background-color: var(--button-bg-color);
+}
+
+.social-net-link:hover .social-icon,
+.social-net-link:focus .social-icon {
+  fill: var(--address-txt);
+}
+
+.social-icon {
   display: block;
-  width: 70px;
-  height: 70px;
-}
-
-.benefit-item:not(:last-child),
-.projects-item:not(:last-child),
-.team-card:not(:last-child) {
-  margin-right: 30px;
-}
-
-.benefit-list .title {
-  color: var(--title-txt-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.benefit-list .description {
-  margin-top: 0;
-  color: var(--primary-txt-color);
-  line-height: 1.71;
+  height: 20px;
+  width: 20px;
+  fill: var(--icon-color);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */
