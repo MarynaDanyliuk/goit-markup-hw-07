@@ -671,19 +671,4 @@ a {
   background-color: transparent;
   color: var(--address-txt);
   outline: none;
-}
-
-.footer-form .button.primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 12px;
-  padding: 10px 28px;
-}
-
-.footer-btn-icon {
-  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
