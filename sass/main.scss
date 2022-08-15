@@ -1,21 +1,28 @@
+@import "./base/reset";
+@import "./base/common";
+
 @import "./utils/vars";
-@import "./components/Webstudio/header";
-@import "./components/Webstudio/logo";
-@import "./components/Webstudio/navigation";
-@import "./components/Webstudio/contacts-list";
-@import "./components/Webstudio/section";
-@import "./components/Webstudio/hero";
-@import "./components/Webstudio/button";
-@import "./components/Webstudio/benefit-list";
-@import "./components/Webstudio/project-list";
-@import "./components/Webstudio/team-list";
-@import "./components/webstudio/clients";
-@import "./components/webstudio/footer";
-@import "./components/webstudio/social-net";
-@import "./components/portfolio/filter";
-@import "./components/portfolio/portfolio-list";
-@import "./components/portfolio/portfolio-card";
-@import "./components/modal/backdrop";
-@import "./components/modal/modal";
-@import "./components/modal/form";
-@import "./components/modal/checkbox";
+
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/contacts-list";
+@import "./components/section";
+@import "./components/button";
+@import "./components/social-net";
+
+@import "./layouts/webstudio/header";
+@import "./layouts/webstudio/hero";
+@import "./layouts/webstudio/benefit-list";
+@import "./layouts/webstudio/project-list";
+@import "./layouts/webstudio/team-list";
+@import "./layouts/webstudio/clients";
+@import "./layouts/webstudio/footer";
+
+@import "./layouts/portfolio/filter";
+@import "./layouts/portfolio/portfolio-list";
+@import "./layouts/portfolio/portfolio-card";
+
+@import "./layouts/modal/backdrop";
+@import "./layouts/modal/modal";
+@import "./layouts/modal/form";
+@import "./layouts/modal/checkbox";
