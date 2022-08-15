@@ -494,7 +494,7 @@
             <p class="form__field">
               <label for="comment" class="form__label">Комментарий</label>
               <textarea
-                class="comment-area"
+                class="form__comment-area"
                 name="comment"
                 id="comment"
                 cols="30"
@@ -503,25 +503,27 @@
               ></textarea>
             </p>
             <p class="checkbox">
-              <label for="mailing">
+              <label for="mailing" class="checkbox__label">
                 <input
-                  class="check-input"
+                  class="check__input"
                   type="checkbox"
                   name="mailing"
                   value="mailing"
                   id="mailing"
                 />
-                <svg class="icon-checkbox-check" width="16" height="15">
+                <svg class="checkbox__icon-check" width="16" height="15">
                   <use href="./img/icons.svg#icon-check-1"></use>
                 </svg>
-                <svg class="icon-checkbox" width="16" height="15">
+                <svg class="checkbox__icon" width="16" height="15">
                   <use href="./img/icons.svg#icon-checkbox"></use>
                 </svg>
                 Соглашаюсь с рассылкой и принимаю
-                <a href="" class="checkbox-link">Условия договора</a>
+                <a href="" class="checkbox__link">Условия договора</a>
               </label>
             </p>
-            <button type="submit" class="button primary">Отправить</button>
+            <button type="submit" class="button button--primary">
+              Отправить
+            </button>
           </form>
         </div>
       </div>

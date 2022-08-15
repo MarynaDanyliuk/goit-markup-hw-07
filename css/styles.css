@@ -509,7 +509,6 @@ a {
 
 .checkbox input {
   position: absolute;
-  /* z-index: -1; */
   opacity: 0;
 }
 
@@ -522,7 +521,6 @@ a {
   width: 425px;
   line-height: 1.71;
   cursor: pointer;
-  /* outline: 2px solid orange; */
 }
 
 /* .checkbox span {
