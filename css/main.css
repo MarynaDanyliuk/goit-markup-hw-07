@@ -59,6 +59,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 0;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
