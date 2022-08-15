@@ -7,11 +7,19 @@
   letter-spacing: 0.03em;
   // text-decoration: none;
   display: inline-block;
+
+  &__header {
+    color: var(--logo-black-txt);
+  }
+
+  &__footer {
+    color: var(--logo-white-txt);
+  }
 }
 
-.page-header__logo {
-  color: var(--logo-black-txt);
-}
+// .page-header__logo {
+//   color: var(--logo-black-txt);
+// }
 
 // .page-header__contacts-list__item {
 //   // text-decoration: none;
@@ -22,6 +30,6 @@
 
 // }
 
-.logo.white {
-  color: var(--logo-white-txt);
-}
+// .logo.white {
+//   color: var(--logo-white-txt);
+// }
