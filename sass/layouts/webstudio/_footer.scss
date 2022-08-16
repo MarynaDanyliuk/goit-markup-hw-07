@@ -4,11 +4,6 @@
   padding-bottom: 60px;
 
   &__container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -81,11 +76,11 @@
     background-color: rgba(255, 255, 255, 0.1);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-  &__social-net-link:hover,
-  &__social-net-link:focus {
-    background-color: var(--button-bg-color);
+    &:hover,
+    &:focus {
+      background-color: var(--button-bg-color);
+    }
   }
 
   &__social-icon {
@@ -108,11 +103,11 @@
 
   &__form {
     display: flex;
-  }
 
-  &__form::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 1.25;
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.25;
+    }
   }
 
   &__input {

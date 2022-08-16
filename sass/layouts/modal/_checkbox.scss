@@ -38,15 +38,14 @@
   &__icon {
     display: block;
     fill: var(--title-txt-color);
-    /* margin-right: 8px; */
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-  &__icon:hover,
-  &__icon:focus {
-    cursor: pointer;
-    fill: var(--accent-txt-color);
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      fill: var(--accent-txt-color);
+    }
   }
 
   &__link {
