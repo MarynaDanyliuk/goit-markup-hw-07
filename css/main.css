@@ -635,7 +635,7 @@ body {
 .portfolio-card__info {
   border: 1px solid #eeeeee;
   border-top: none;
-  padding: 20px 24px;
+  padding: 20px 17px;
 }
 .portfolio-card__title {
   font-weight: 700;
@@ -846,9 +846,7 @@ body {
   fill: var(--accent-txt-color);
 }
 .checkbox__link {
-  /* position: relative; */
   display: inline-block;
-  /* margin-left: 4px; */
   color: var(--accent-txt-color);
   text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
